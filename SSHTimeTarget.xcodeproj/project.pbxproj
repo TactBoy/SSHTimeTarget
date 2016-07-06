@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		159F3B6F1D2CD3AE003196E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 159F3B6E1D2CD3AE003196E6 /* main.m */; };
+		159F3B721D2CD3AE003196E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 159F3B711D2CD3AE003196E6 /* AppDelegate.m */; };
+		159F3B751D2CD3AE003196E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159F3B741D2CD3AE003196E6 /* ViewController.m */; };
+		159F3B781D2CD3AE003196E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 159F3B761D2CD3AE003196E6 /* Main.storyboard */; };
+		159F3B7B1D2CD3AE003196E6 /* SSHTimeTarget.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 159F3B791D2CD3AE003196E6 /* SSHTimeTarget.xcdatamodeld */; };
+		159F3B7D1D2CD3AE003196E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 159F3B7C1D2CD3AE003196E6 /* Assets.xcassets */; };
+		159F3B801D2CD3AE003196E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 159F3B7E1D2CD3AE003196E6 /* LaunchScreen.storyboard */; };
+		159F3B8B1D2CD3AE003196E6 /* SSHTimeTargetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 159F3B8A1D2CD3AE003196E6 /* SSHTimeTargetTests.m */; };
+		159F3B961D2CD3AE003196E6 /* SSHTimeTargetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 159F3B951D2CD3AE003196E6 /* SSHTimeTargetUITests.m */; };
+		159F3BA61D2CD3D4003196E6 /* SSHTimeTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 159F3BA51D2CD3D4003196E6 /* SSHTimeTarget.m */; };
+		159F3BA91D2CD458003196E6 /* TargetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159F3BA81D2CD458003196E6 /* TargetViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		159F3B871D2CD3AE003196E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 159F3B621D2CD3AE003196E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 159F3B691D2CD3AE003196E6;
+			remoteInfo = SSHTimeTarget;
+		};
+		159F3B921D2CD3AE003196E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 159F3B621D2CD3AE003196E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 159F3B691D2CD3AE003196E6;
+			remoteInfo = SSHTimeTarget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		159F3B6A1D2CD3AE003196E6 /* SSHTimeTarget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSHTimeTarget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		159F3B6E1D2CD3AE003196E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		159F3B701D2CD3AE003196E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		159F3B711D2CD3AE003196E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		159F3B731D2CD3AE003196E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		159F3B741D2CD3AE003196E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		159F3B771D2CD3AE003196E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		159F3B7A1D2CD3AE003196E6 /* SSHTimeTarget.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SSHTimeTarget.xcdatamodel; sourceTree = "<group>"; };
+		159F3B7C1D2CD3AE003196E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		159F3B7F1D2CD3AE003196E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		159F3B811D2CD3AE003196E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		159F3B861D2CD3AE003196E6 /* SSHTimeTargetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSHTimeTargetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		159F3B8A1D2CD3AE003196E6 /* SSHTimeTargetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSHTimeTargetTests.m; sourceTree = "<group>"; };
+		159F3B8C1D2CD3AE003196E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		159F3B911D2CD3AE003196E6 /* SSHTimeTargetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSHTimeTargetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		159F3B951D2CD3AE003196E6 /* SSHTimeTargetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSHTimeTargetUITests.m; sourceTree = "<group>"; };
+		159F3B971D2CD3AE003196E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		159F3BA41D2CD3D4003196E6 /* SSHTimeTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHTimeTarget.h; sourceTree = "<group>"; };
+		159F3BA51D2CD3D4003196E6 /* SSHTimeTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHTimeTarget.m; sourceTree = "<group>"; };
+		159F3BA71D2CD458003196E6 /* TargetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetViewController.h; sourceTree = "<group>"; };
+		159F3BA81D2CD458003196E6 /* TargetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		159F3B671D2CD3AE003196E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		159F3B831D2CD3AE003196E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		159F3B8E1D2CD3AE003196E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		159F3B611D2CD3AE003196E6 = {
+			isa = PBXGroup;
+			children = (
+				159F3B6C1D2CD3AE003196E6 /* SSHTimeTarget */,
+				159F3B891D2CD3AE003196E6 /* SSHTimeTargetTests */,
+				159F3B941D2CD3AE003196E6 /* SSHTimeTargetUITests */,
+				159F3B6B1D2CD3AE003196E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		159F3B6B1D2CD3AE003196E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				159F3B6A1D2CD3AE003196E6 /* SSHTimeTarget.app */,
+				159F3B861D2CD3AE003196E6 /* SSHTimeTargetTests.xctest */,
+				159F3B911D2CD3AE003196E6 /* SSHTimeTargetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		159F3B6C1D2CD3AE003196E6 /* SSHTimeTarget */ = {
+			isa = PBXGroup;
+			children = (
+				159F3BA31D2CD3B8003196E6 /* TimeTarget */,
+				159F3B701D2CD3AE003196E6 /* AppDelegate.h */,
+				159F3B711D2CD3AE003196E6 /* AppDelegate.m */,
+				159F3B731D2CD3AE003196E6 /* ViewController.h */,
+				159F3B741D2CD3AE003196E6 /* ViewController.m */,
+				159F3BA71D2CD458003196E6 /* TargetViewController.h */,
+				159F3BA81D2CD458003196E6 /* TargetViewController.m */,
+				159F3B761D2CD3AE003196E6 /* Main.storyboard */,
+				159F3B7C1D2CD3AE003196E6 /* Assets.xcassets */,
+				159F3B7E1D2CD3AE003196E6 /* LaunchScreen.storyboard */,
+				159F3B811D2CD3AE003196E6 /* Info.plist */,
+				159F3B791D2CD3AE003196E6 /* SSHTimeTarget.xcdatamodeld */,
+				159F3B6D1D2CD3AE003196E6 /* Supporting Files */,
+			);
+			path = SSHTimeTarget;
+			sourceTree = "<group>";
+		};
+		159F3B6D1D2CD3AE003196E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				159F3B6E1D2CD3AE003196E6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		159F3B891D2CD3AE003196E6 /* SSHTimeTargetTests */ = {
+			isa = PBXGroup;
+			children = (
+				159F3B8A1D2CD3AE003196E6 /* SSHTimeTargetTests.m */,
+				159F3B8C1D2CD3AE003196E6 /* Info.plist */,
+			);
+			path = SSHTimeTargetTests;
+			sourceTree = "<group>";
+		};
+		159F3B941D2CD3AE003196E6 /* SSHTimeTargetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				159F3B951D2CD3AE003196E6 /* SSHTimeTargetUITests.m */,
+				159F3B971D2CD3AE003196E6 /* Info.plist */,
+			);
+			path = SSHTimeTargetUITests;
+			sourceTree = "<group>";
+		};
+		159F3BA31D2CD3B8003196E6 /* TimeTarget */ = {
+			isa = PBXGroup;
+			children = (
+				159F3BA41D2CD3D4003196E6 /* SSHTimeTarget.h */,
+				159F3BA51D2CD3D4003196E6 /* SSHTimeTarget.m */,
+			);
+			name = TimeTarget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		159F3B691D2CD3AE003196E6 /* SSHTimeTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 159F3B9A1D2CD3AE003196E6 /* Build configuration list for PBXNativeTarget "SSHTimeTarget" */;
+			buildPhases = (
+				159F3B661D2CD3AE003196E6 /* Sources */,
+				159F3B671D2CD3AE003196E6 /* Frameworks */,
+				159F3B681D2CD3AE003196E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSHTimeTarget;
+			productName = SSHTimeTarget;
+			productReference = 159F3B6A1D2CD3AE003196E6 /* SSHTimeTarget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		159F3B851D2CD3AE003196E6 /* SSHTimeTargetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 159F3B9D1D2CD3AE003196E6 /* Build configuration list for PBXNativeTarget "SSHTimeTargetTests" */;
+			buildPhases = (
+				159F3B821D2CD3AE003196E6 /* Sources */,
+				159F3B831D2CD3AE003196E6 /* Frameworks */,
+				159F3B841D2CD3AE003196E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				159F3B881D2CD3AE003196E6 /* PBXTargetDependency */,
+			);
+			name = SSHTimeTargetTests;
+			productName = SSHTimeTargetTests;
+			productReference = 159F3B861D2CD3AE003196E6 /* SSHTimeTargetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		159F3B901D2CD3AE003196E6 /* SSHTimeTargetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 159F3BA01D2CD3AE003196E6 /* Build configuration list for PBXNativeTarget "SSHTimeTargetUITests" */;
+			buildPhases = (
+				159F3B8D1D2CD3AE003196E6 /* Sources */,
+				159F3B8E1D2CD3AE003196E6 /* Frameworks */,
+				159F3B8F1D2CD3AE003196E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				159F3B931D2CD3AE003196E6 /* PBXTargetDependency */,
+			);
+			name = SSHTimeTargetUITests;
+			productName = SSHTimeTargetUITests;
+			productReference = 159F3B911D2CD3AE003196E6 /* SSHTimeTargetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		159F3B621D2CD3AE003196E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "海神";
+				TargetAttributes = {
+					159F3B691D2CD3AE003196E6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					159F3B851D2CD3AE003196E6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 159F3B691D2CD3AE003196E6;
+					};
+					159F3B901D2CD3AE003196E6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 159F3B691D2CD3AE003196E6;
+					};
+				};
+			};
+			buildConfigurationList = 159F3B651D2CD3AE003196E6 /* Build configuration list for PBXProject "SSHTimeTarget" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 159F3B611D2CD3AE003196E6;
+			productRefGroup = 159F3B6B1D2CD3AE003196E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				159F3B691D2CD3AE003196E6 /* SSHTimeTarget */,
+				159F3B851D2CD3AE003196E6 /* SSHTimeTargetTests */,
+				159F3B901D2CD3AE003196E6 /* SSHTimeTargetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		159F3B681D2CD3AE003196E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				159F3B801D2CD3AE003196E6 /* LaunchScreen.storyboard in Resources */,
+				159F3B7D1D2CD3AE003196E6 /* Assets.xcassets in Resources */,
+				159F3B781D2CD3AE003196E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		159F3B841D2CD3AE003196E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		159F3B8F1D2CD3AE003196E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		159F3B661D2CD3AE003196E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				159F3B751D2CD3AE003196E6 /* ViewController.m in Sources */,
+				159F3B721D2CD3AE003196E6 /* AppDelegate.m in Sources */,
+				159F3B7B1D2CD3AE003196E6 /* SSHTimeTarget.xcdatamodeld in Sources */,
+				159F3BA61D2CD3D4003196E6 /* SSHTimeTarget.m in Sources */,
+				159F3B6F1D2CD3AE003196E6 /* main.m in Sources */,
+				159F3BA91D2CD458003196E6 /* TargetViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		159F3B821D2CD3AE003196E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				159F3B8B1D2CD3AE003196E6 /* SSHTimeTargetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		159F3B8D1D2CD3AE003196E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				159F3B961D2CD3AE003196E6 /* SSHTimeTargetUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		159F3B881D2CD3AE003196E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 159F3B691D2CD3AE003196E6 /* SSHTimeTarget */;
+			targetProxy = 159F3B871D2CD3AE003196E6 /* PBXContainerItemProxy */;
+		};
+		159F3B931D2CD3AE003196E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 159F3B691D2CD3AE003196E6 /* SSHTimeTarget */;
+			targetProxy = 159F3B921D2CD3AE003196E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		159F3B761D2CD3AE003196E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				159F3B771D2CD3AE003196E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		159F3B7E1D2CD3AE003196E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				159F3B7F1D2CD3AE003196E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		159F3B981D2CD3AE003196E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		159F3B991D2CD3AE003196E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		159F3B9B1D2CD3AE003196E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSHTimeTarget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haishen.SSHTimeTarget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		159F3B9C1D2CD3AE003196E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSHTimeTarget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haishen.SSHTimeTarget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		159F3B9E1D2CD3AE003196E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SSHTimeTargetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haishen.SSHTimeTargetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSHTimeTarget.app/SSHTimeTarget";
+			};
+			name = Debug;
+		};
+		159F3B9F1D2CD3AE003196E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SSHTimeTargetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haishen.SSHTimeTargetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSHTimeTarget.app/SSHTimeTarget";
+			};
+			name = Release;
+		};
+		159F3BA11D2CD3AE003196E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SSHTimeTargetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haishen.SSHTimeTargetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SSHTimeTarget;
+			};
+			name = Debug;
+		};
+		159F3BA21D2CD3AE003196E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SSHTimeTargetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haishen.SSHTimeTargetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SSHTimeTarget;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		159F3B651D2CD3AE003196E6 /* Build configuration list for PBXProject "SSHTimeTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				159F3B981D2CD3AE003196E6 /* Debug */,
+				159F3B991D2CD3AE003196E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		159F3B9A1D2CD3AE003196E6 /* Build configuration list for PBXNativeTarget "SSHTimeTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				159F3B9B1D2CD3AE003196E6 /* Debug */,
+				159F3B9C1D2CD3AE003196E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		159F3B9D1D2CD3AE003196E6 /* Build configuration list for PBXNativeTarget "SSHTimeTargetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				159F3B9E1D2CD3AE003196E6 /* Debug */,
+				159F3B9F1D2CD3AE003196E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		159F3BA01D2CD3AE003196E6 /* Build configuration list for PBXNativeTarget "SSHTimeTargetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				159F3BA11D2CD3AE003196E6 /* Debug */,
+				159F3BA21D2CD3AE003196E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		159F3B791D2CD3AE003196E6 /* SSHTimeTarget.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				159F3B7A1D2CD3AE003196E6 /* SSHTimeTarget.xcdatamodel */,
+			);
+			currentVersion = 159F3B7A1D2CD3AE003196E6 /* SSHTimeTarget.xcdatamodel */;
+			path = SSHTimeTarget.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 159F3B621D2CD3AE003196E6 /* Project object */;
+}
