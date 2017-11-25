@@ -22,6 +22,7 @@
     ......
     ...dasdas
     joasj doas dasd as
+    打算打算多
     // Do any additional setup after loading the view, typically from a nib.
 }
 
